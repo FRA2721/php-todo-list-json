@@ -1,0 +1,30 @@
+/* general reset formatting section */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* body formatting section */
+body{
+    color: white;
+    background-color: rgb(3, 3, 33);
+}
+
+/* list group formatting section */
+.list-group{
+    margin: 0 auto;
+    width: 600px;
+    justify-content: center;
+}
+
+/* list item formatting section */
+li{
+    transition-duration: .5s;
+}
+
+/* li hover */
+li:hover{
+    cursor: pointer;
+    background-color: lightblue;
+}
